@@ -1,0 +1,24 @@
+# Keyboard Automation Script
+
+This script is designed to automate keyboard actions to navigate a spreadsheet. It is particularly useful for repetitive tasks, helping to save time and reduce manual effort.
+
+## Features
+
+- **Countdown:** The script starts with a countdown before initiating the keyboard actions.
+- **Iteration:** The main loop repeats a sequence of keyboard actions multiple times.
+- **Actions:**
+  - Press the "Up" arrow key.
+  - Press the "Right" arrow key three times.
+  - Press the "Enter" key.
+  - Select all (Ctrl+A).
+  - Copy selected content (Ctrl+C).
+  - Paste copied content (Ctrl+V).
+  - Press Esc key.
+  - Press the "Left" arrow key three times.
+
+## Usage
+
+1. Ensure you have the required libraries installed:
+
+   ```bash
+   pip install keyboard
