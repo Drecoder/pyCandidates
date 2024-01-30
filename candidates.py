@@ -10,7 +10,7 @@ def countdown(seconds):
 def simulate_keyboard_actions():
     countdown(30)  # Start with a 10-second countdown
 
-    for iteration in range(1, 16):  # Repeat the sequence 20 times
+    for iteration in range(1, 21):  # Repeat the sequence 20 times
         # Simulate pressing the "Up" arrow key
         keyboard.press_and_release('up')
         time.sleep(1)
@@ -54,7 +54,7 @@ def simulate_keyboard_actions():
         # Wait for 20 seconds before starting the next iteration
         time.sleep(2)
         # Wait for 40 seconds before starting the next iteration
-        countdown(40)
+        countdown(60)
 
         # Log the number of iterations in the console
         print(f"Iteration: {iteration}")
